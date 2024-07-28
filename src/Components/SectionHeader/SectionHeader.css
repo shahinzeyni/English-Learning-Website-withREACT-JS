@@ -1,0 +1,55 @@
+.courses-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+}
+
+.courses-header__right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
+}
+.courses-header__left{
+  margin-left: 17px;
+}
+.courses-header__title1{
+  background: linear-gradient(57deg, #5D3EFF 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 100;
+}
+.courses-header__text {
+  position: relative;
+  background: linear-gradient(57deg, #5D3EFF 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-family: "DanaMedium";
+  letter-spacing:1px;
+}
+.courses-header__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 1.2rem 1.5rem;
+  border-radius: 13.5rem;
+  cursor: pointer;
+}
+.courses-header__link:hover {
+  color: var(--white-color);
+}
+.courses-header__link svg{
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-right: 2px;
+
+}
+.courses-header__icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}

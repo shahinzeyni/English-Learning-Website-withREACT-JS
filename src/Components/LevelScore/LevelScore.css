@@ -1,0 +1,62 @@
+.levelScore_section{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.levelScore_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+
+}
+.levelScore_content{
+    padding-left: 50px;
+    height: 50%;
+}
+.levelScore_title{
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--dark-color);
+    margin-top: 10px;
+    opacity: .9;
+}
+.levelScore_discribe{
+    font-weight: 100;
+    font-size: 17px;
+    color: var(--grey-color);
+    margin-top: 15px;
+    opacity: .8;
+    font-family: "DanaMedium";
+
+}
+.levelScore_btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    padding: 13.9px 36px 13.9px 24px;
+    border-radius: 45px;
+    font-family: "DanaMedium";
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+.levelScore_btn svg{
+    font-size: 25px;
+    margin-right: 3px;
+    color: var(--white-color);
+}
+.levelScore_btn i {
+    margin-right: 5px;
+}
+.levelScore_left{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    align-items: center;
+}
+.levelScore_img{
+    width: 70%;
+}
