@@ -1,0 +1,22 @@
+@font-face {
+    font-family: DanaExtra;
+    src: url(../fonts/Dana/woff2/DanaFaNum-DemiBold.woff2);
+}
+
+@font-face {
+    font-family: DanaMedium;
+    src: url(..//fonts/Dana/woff2/DanaFaNum-Medium.woff2);
+}
+@font-face {
+    font-family: MorabaEtra;
+    src: url(..//fonts/Morabba/woff2/Morabba-Bold.woff2);
+}
+@font-face {
+    font-family: MorabaMedium;
+    src: url(..//fonts/Morabba/woff2/Morabba-Medium.woff2);
+}
+
+@font-face {
+    font-family: "VazirNumber";
+    src: url(../fonts/Vazir-Medium-FD-WOL.woff2)
+}

@@ -1,0 +1,144 @@
+
+/* Start Helper Classes */
+.titleAdmin{
+  font-size: 2.3rem;
+  color: #444446;
+  font-weight: bold;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+
+.titleAdmin::before{
+  content: "";
+  position: absolute;
+  right: -1rem;
+  width: 0.6rem;
+  top: 25px;
+  height: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 5px 5px 5px 0px !important;
+  transform: rotate(0deg) ;
+}
+
+.titleAdmin::after{
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 15px;
+  width: 229px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #8557f01c;
+}
+.titleAdmin2{
+
+  position: relative;
+}
+.titleAdmin2::before{
+  content: "";
+  position: absolute;
+  right: -1rem;
+  width: 0.6rem;
+  top: 23px;
+  height: 1.7rem;
+  background-color: #6e61b553;
+  border-radius: 5px 0px 5px 5px  !important;
+  transform: rotate(0deg) ;
+}
+.titleAdmin3{
+  position: relative;
+  z-index: 1;
+}
+.titleAdmin3::before{
+  content: "";
+  position: absolute;
+  right: -1rem;
+  width: 0.6rem;
+  top: 19px;
+  height: 1.7rem;
+  background-color: #6e61b553;
+  border-radius: 5px 0px 5px 5px  !important;
+  transform: rotate(0deg) ;
+}
+.title {
+   font-size: 3.1rem;
+    color: #444446;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+
+
+  .title::before {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.6rem;
+    top: 5px;
+    height: 3.4rem;
+    background-color: var(--primary-color);
+    border-radius: 5px 5px 5px 0px !important;
+    transform: rotate(0deg) ;
+  }
+  
+  .title::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 169px;
+    height: 60%;
+    border-radius: 2px;
+    background-color: #8557f01c;
+  }
+
+  .title2::before{
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.6rem;
+    top: -3px;
+    height: 2rem;
+    background-color: #6E61B51C;
+    border-radius: 5px 0px 5px 5px  !important;
+    transform: rotate(0deg) ;
+  }
+
+  .titleAdminCourse {
+    font-size: 3.1rem;
+     color: #444446;
+     font-weight: bold;
+     line-height: 1.2;
+     position: relative;
+     margin-bottom: 10px;
+     z-index: 100;
+   }
+ 
+
+  .titleAdminCourse::before {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.6rem;
+    top: 5px;
+    height: 3.4rem;
+    background-color: #81d83a;
+    border-radius: 5px 5px 5px 0px !important;
+    transform: rotate(0deg);
+    z-index: 100;
+}
+
+.titleAdminCourse::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 169px;
+  height: 60%;
+  border-radius: 20px;
+  background-color: #8557f01c;
+}
+    /* Finish Helper Classes */
