@@ -1,0 +1,132 @@
+/* Start landing Styles */
+
+
+
+.landing__title {
+  font-size: 4.7rem;
+  font-weight: bold;
+  font-family: "MorabaEtra";
+  margin-top: 40px;
+
+}
+.landing__title p{
+  font-size: 38px;
+}
+.landing__title span{
+  color: #6E61B5;
+}
+.landing_btns{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.landing_btn1{
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: "DanaMedium";
+  color: var(--white-color);
+
+}
+.landing_btn2{
+  background-color:#dfe5f4;
+  color: var(--dark-color);
+  z-index: 100;
+  border: none;
+  outline: none;
+  padding: 13.9px 50px;
+  border-radius: 25px;
+  font-family: "DanaMedium";
+  margin-right: 10px;
+}
+.landing__subtitle {
+  font-size: 1.8rem;
+  font-weight:lighter;
+  font-weight: 100 ;
+  margin-top: 0.7rem;
+  color: var(--grey-color);
+  font-family: "DanaMedium";
+  line-height: 35px;
+}
+.landing__searchbar-input::placeholder{
+  font-size: 10px;
+  color: var(--dark-color);
+}
+.landing__searchbar {
+  width: 170px;
+  position: relative;
+}
+
+.landing__searchbar-input {
+  width: 100%;
+  padding:  1rem ;
+  border: none;
+  font-size: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 1px rgb(121 106 106 / 5%);
+  background-color: #FFFFFF;
+  color: var(--dark-color);
+
+}
+
+.landing__searchbar-btn {
+  border: none;
+  background-color: #6e61b500;
+  position: absolute;
+  left: 1rem;
+  width: 3rem;
+  top: 0.5rem;
+  height: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__searchbar-icon {
+  font-size: 1.8rem;
+  color: var(--grey-color);
+  margin-bottom: 4px;
+}
+
+.landing-status {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.landing-status__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-status__item svg {
+  fill: var(--white-color);
+}
+
+.landing-status__count {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.landing-status__text {
+  font-weight: bold;
+}
+
+
+
+.landing_pic{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.land_pic{
+  width: 80%;
+}
+/* Finish landing Styles */

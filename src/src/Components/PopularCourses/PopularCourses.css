@@ -1,0 +1,38 @@
+.popular {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.containerSwiper{
+  padding-inline: 74px;
+}
+
+.swiperBtns{
+  display: flex;
+  margin-top: -10px;
+ justify-content: center;
+ align-items: center;
+}
+.swiperBtnNext svg{
+  font-size: 30px;
+  color: var(--white-color);
+}
+.swiperBtnNext  {
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.swiperBtnPrev svg{
+  font-size: 30px;
+  color: var(--white-color);
+}
+.swiperBtnPrev{
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+  border: none;
+}
