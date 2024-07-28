@@ -1,0 +1,355 @@
+
+#home {
+  position: absolute;
+  left: 0;
+}
+.starIcon svg{
+  color: #1ad61a;
+}
+.starFillIcon svg{
+  color: #1ad61a;
+}
+.home-box-iconTag{
+  color: #f4813ab9 ;
+  background-color: #e5e7ef8b;
+  padding: 10px;
+  margin-top: 0;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+#home .home-header .home-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-around !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center !important;
+  position: relative;
+}
+#home .home-header .home-right .home-searchbar {
+  position: relative;
+}
+
+.home-searchbar{
+  display: flex;
+  align-items: center;
+  border-radius: 37px;
+}
+.home-profile-image a img{
+  background-color: var(--dark-color) !important;
+}
+.bell_bar_searchIcon{
+  color: var(--grey-color) !important;
+  margin-top: 5px;
+    font-size: 17px;
+}
+.search-bar::placeholder{
+  color: var(--dark-color) !important;
+}
+.search-bar_searchIcon{
+  color: var(--grey-color);
+  margin-left: 10px;
+
+}
+
+
+#home
+  .home-header
+  .home-right
+  .home-notification-modal
+  .home-notification-modal-list {
+  list-style-type: none;
+}
+#home
+  .home-header
+  .home-right
+  .home-notification-modal
+  .home-notification-modal-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #ccc; */
+  padding: 10px;
+}
+#home
+  .home-header
+  .home-right
+  .home-notification-modal
+  .home-notification-modal-text {
+  color: #313131;
+  font-size: 13px;
+}
+#home .home-header .home-right .home-notification-modal .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+}
+#home .home-header .home-right .home-notification-modal .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+#home .home-header .home-right .home-notification-modal .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#home .home-header .home-right .home-notification-modal .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+#home
+  .home-header
+  .home-right
+  .home-notification-modal
+  input:checked
+  + .slider {
+  background-color: #2196f3;
+}
+#home .home-header .home-right .home-notification-modal input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #2196f3;
+}
+
+#home .home-header .home-left .home-profile .home-profile-image img {
+  width: 50px;
+  border-radius: 50%;
+}
+#home .home-header .home-left .home-profile .home-profile-name {
+  margin-left: 10px;
+}
+
+#home .home-header .home-left .home-profile .home-profile-icon {
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#home .home-header .home-left .home-profile .home-profile-icon i {
+  color: #313131;
+}
+
+#home #home-content .home-content-title {
+  /* padding-top: 25px; */
+}
+#home #home-content .home-content-title .welcome {
+  font-size: 18px;
+  font-family: "lalezar";
+}
+#home #home-content .home-content-title .name {
+  font-size: 18px;
+  font-family: "lalezar";
+  color: #1943da;
+}
+#home #home-content .home-content-boxes {
+  margin-top: 10px;
+}
+.home-box-text{
+  display: flex;
+  justify-content: space-around;
+}
+#home #home-content .home-content-boxes .box {
+  background-color: #FFFFFF !important;
+  border-radius: 15px ;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.145);
+}
+
+#home #home-content .home-content-boxes .box .home-box {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: start;
+}
+#home #home-content .home-content-boxes .box .home-box .home-box-title span {
+  font-family: "lalezar";
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+}
+#home
+  #home-content
+  .home-content-boxes
+  .box
+  .home-box
+  .home-box-title
+  span::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 3px;
+  background-color: #1943da;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 5px 1px #1943da81;
+  box-shadow: 0px 0px 5px 1px #1943da81;
+  top: 50%;
+  right: -15px;
+}
+#home
+  #home-content
+  .home-content-boxes
+  .box
+  .home-box
+  .home-box-title
+  span::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 3px;
+  background-color: #1943da;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 5px 1px #1943da81;
+  box-shadow: 0px 0px 5px 1px #1943da81;
+  bottom: 50%;
+  left: -15px;
+}
+#home #home-content .home-content-boxes .box .home-box .home-box-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 0;
+}
+#home
+  #home-content
+  .home-content-boxes
+  .box
+  .home-box
+  .home-box-value
+  .home-box-price
+  span {
+  font-weight: bold;
+  font-size: 18px;
+}
+#home
+  #home-content
+  .home-content-boxes
+  .box
+  .home-box
+  .home-box-value
+  .home-box-result
+  span {
+  font-weight: bold;
+  font-size: 15px;
+  color: #1ad61a;
+}
+#home #home-content .home-content-boxes .box .home-box .home-box-text span {
+  color: #a3abb1;
+}
+#home #home-content .home-content-boxes .box .home-box .home-box-icon {
+  border-radius: 50%;
+  padding: 20px;
+}
+#home #home-content .home-content-boxes .box .home-box .home-box-icon i {
+  font-size: 30px;
+  color: #1943da;
+}
+#home #home-content .home-content-chart {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.home-content-users-title {
+  padding: 20px 15px;
+}
+.home-content-users-title span {
+  font-size: 18px;
+  font-family: "lalezar";
+}
+.home-content-users-title
+  span
+  .signup {
+  color: #1943da;
+}
+.home-content-users-table {
+  padding: 0 10px;
+  width: 100%;
+  overflow-x: auto;
+}
+table{
+  border-spacing: 2px 0px !important;
+}
+.home-content-users-table
+  table
+  thead {
+  background-color: #f2f7fd;
+}
+tr:nth-of-type(2n){
+  background: hsla(0, 3%, 66%, 0.1);
+}
+.home-content-users-table
+table{
+  min-width: 400px;
+  border-spacing: .25px;
+  border-collapse: separate !important;
+}
+
+.home-content-users-table
+  table
+  tbody
+  tr {
+  vertical-align: middle;
+}
+.home-content-users-table
+  table
+  tbody
+  tr
+  .profile-table {
+  width: 40px;
+  border-radius: 50%;
+}
+.home-content-users-table
+  table
+  tbody
+  tr
+  td {
+  text-align: center;
+}
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

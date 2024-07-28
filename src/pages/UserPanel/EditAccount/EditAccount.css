@@ -1,0 +1,83 @@
+/* ============================== Content Main Style ============================== */
+.main_edit{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.edit {
+  /* border-right: 2px solid var(--primary-color); */
+  padding-right: 3rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  width: 100%;
+  padding: 50px;
+}
+.edit__label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: var(--dark-color);
+}
+.edit__input {
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  color: #464749;
+}
+.edit__help {
+  display: block;
+  font-style: italic;
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.edit__password {
+  margin-top: 2rem;
+}
+.edit__password-title {
+  border-bottom: 2px solid #d2e2d68b;
+  display: block;
+  color: var(--sec-color);
+}
+.edit__btn {
+  border: none;
+  margin-top: 2rem;
+  background-color: #2bce56;
+  color: var(--white-color);
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  transition: all 400ms ease;
+}
+.edit__btn:hover {
+  background-color: #33be58;
+}
+.btnEditBox{
+
+
+  margin-top: 30px;
+}
+/* ============================== Content Main Style ============================== */
+.input-group input{
+
+  color: var(--sec-color) !important;
+  font-size: 1.45rem;
+  line-height: 1;
+  border-style: none;
+  outline: none;
+  height: calc(1em + 1.6em + 0.5em);
+  width: 100%;
+  padding: 0.8em 1em;
+  border: 0.25em solid transparent;
+  background-image: linear-gradient(#ffffff,#ffffff), linear-gradient(120deg, rgba(64, 255, 0, 0.691) 0%, #0ff 5%, rgb(218, 8, 134) 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 1.8em;
+  background-size: 200% 100%;
+  transition: background-position 0.8s ease-out;
+}

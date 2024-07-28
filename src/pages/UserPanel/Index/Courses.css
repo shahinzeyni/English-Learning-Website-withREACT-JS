@@ -1,0 +1,34 @@
+
+.content-header {
+  border-top: 2px solid #2bce56;
+  border-bottom: 2px solid #2bce56;
+  padding: 1.7rem 0;
+}
+.content-header__title {
+  display: block;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+.content-header__subtitle {
+  font-size: 1.3rem;
+}
+/* ============================== Content Header Style ============================== */
+
+/* ============================== Content Sidebar Style ============================== */
+.content-main {
+  margin: 3rem 0;
+}
+.sidebar__name {
+  color: var(--dark-color);
+  font-size: 1.7rem;
+}
+.sidebar__list {
+  margin-top: 0.7rem;
+}
+.sidebar__link {
+  display: block;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+/* ============================== Content Sidebar Style ============================== */

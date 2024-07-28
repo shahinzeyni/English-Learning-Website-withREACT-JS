@@ -1,0 +1,253 @@
+
+/* ============================== Reset Style ============================== */
+.header {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.main_col10sec2 {
+  height: 100vh;
+}
+
+.home-content-userPanel {
+  border-radius: 150px 150px 0 0;
+}
+
+
+
+/* ============================== Content Header Style ============================== */
+
+.content {
+  display: block;
+}
+
+.content-header {
+  border-top: 2px solid #2bce56;
+  border-bottom: 2px solid #2bce56;
+  padding: 1.7rem 0;
+}
+
+.content-header__title {
+  display: block;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.content-header__subtitle {
+  font-size: 1.3rem;
+}
+
+/* ============================== Content Header Style ============================== */
+
+/* ============================== Content Sidebar Style ============================== */
+.content-main {
+  margin: 3rem 0;
+}
+
+.sidebar__name {
+  color: var(--dark-color);
+  font-size: 1.7rem;
+}
+
+.sidebar__list {
+  margin-top: 0.7rem;
+}
+
+.sidebar__link {
+  display: block;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+
+.main__title {
+  padding: 20px;
+}
+
+.userData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #F3F4F6;
+}
+.btnShowSidebar{
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.main__title-text {
+  font-size: 2rem;
+  color: var(--sec-color);
+}
+
+
+.main__title-name {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.userData_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconUserPanel {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  font-size: 22px;
+
+}
+.iconUserPanel:hover{
+  color:var(--white-color);
+}
+
+.main__title-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main__desc {
+  margin: 2.3rem 0 2rem 0;
+}
+
+.main__link {
+  display: block;
+  text-align: center;
+  padding: 1.5rem 0;
+  border: 1px solid #2bce56;
+  border-radius: 0.3rem;
+  margin-bottom: 1.5rem;
+  transition: all 400ms ease;
+}
+
+.main__link:hover {
+  background-color: #2bce56;
+  color: var(--white-color);
+}
+
+/* ============================== Content Main Style ============================== */
+
+
+
+
+/* ============================== Slider Style ============================== */
+
+#sidebar .sidebar-menu-userpanel ul {
+  background-color: var(--primary-color);
+  padding: 10px 0;
+  height: 100vh;
+
+
+
+}
+
+#sidebar .sidebar-menu-userpanel {
+  margin-top: 0px;
+}
+
+#sidebar .sidebar-menu-userpanel ul li a i {
+  padding-left: 10px;
+}
+.mainBoxShowUserPanelTicket{
+  margin-bottom: 60px;
+}
+.mainBoxShowUserPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 20px;
+
+
+}
+.unavailable label,.available label{
+  display: flex;
+  align-items: center;
+}
+.radiusBtns{
+  margin: 0;
+}
+
+.unavailablelabel input , .available label input{
+  margin-right: 2px;
+}
+.condition .radios{
+  margin-top: 0 ;
+}
+.main-radius{
+  margin-top: 5px;
+  margin-right: 7px;
+}
+.radios{
+  margin-left: 10px;
+}
+
+
+.boxShowUserPanel {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px 12px;
+  border-radius: 15px;
+  width: 281px;
+  column-gap: 2.5rem;
+
+}
+
+.boxShowUserPanel1 {
+  background-color: #FBBF24;
+}
+
+.boxShowUserPanel2 {
+  background-color: #0EA5E9;
+}
+
+.boxShowUserPanel3 {
+  background-color: #EC4899;
+}
+
+.boxShowUserPanel_icon {
+  font-size: 35px;
+  color: var(--white-color);
+  padding: 7px 17px;
+  border-radius: 15px;
+}
+
+.boxShowUserPanel_icon1 {
+  background-color: #FCCC50;
+
+}
+
+.boxShowUserPanel_icon2 {
+  background-color: #3EB7ED;
+}
+
+.boxShowUserPanel_icon3 {
+  background-color: #F06DAD;
+}
+
+.boxShowUserPanel_titels {
+  text-align: center;
+  margin-right: 20px;
+  color: var(--white-color);
+}
+
+.boxShowUserPanel_title {
+  font-size: 12px;
+}
+
+.boxShowUserPanel_title2 {
+  font-size: 20px;
+}

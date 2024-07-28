@@ -1,0 +1,15 @@
+.flexWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

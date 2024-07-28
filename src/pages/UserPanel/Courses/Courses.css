@@ -1,0 +1,236 @@
+
+
+.content-header {
+  border-top: 2px solid var(--primary-color) !important;
+  border-bottom: 2px solid var(--primary-color) !important;
+  padding: 1.7rem 0;
+}
+.content-header__title {
+  display: block;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+.content-header__subtitle {
+  font-size: 1.3rem;
+}
+.cour {
+  padding: 20px;
+ }
+
+ .containerSizeFlex{
+  display: flex;
+  justify-content: center;
+}
+
+.containerSizeUserPanel{
+  padding: 0 15px;
+}
+/* ============================== Content Header Style ============================== */
+
+/* ============================== Content Sidebar Style ============================== */
+.content-main {
+  margin: 3rem 0;
+}
+.sidebar__name {
+  color: var(--dark-color);
+  font-size: 1.7rem;
+}
+.sidebar__list {
+  margin-top: 0.7rem;
+}
+.sidebar__link {
+  display: block;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+/* ============================== Content Sidebar Style ============================== */
+
+/* ============================== Content Main Style ============================== */
+.courses1 {
+  border-right: 2px solid var(--primary-color) !important;
+  padding-right: 3rem;
+}
+
+.courses-header__panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-header__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.courses-header__list {
+  display: flex;
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+.courses-header__item {
+  margin: 1rem 0 1rem 3.5rem;
+}
+.courses-header__link__panel {
+  font-size: 1.5rem;
+}
+.courses-header__link-active {
+  color: var(--white-color) !important;
+  background-color: var(--primary-color);
+  padding: 6px 10px;
+  border-radius: 15px;
+}
+.main__box {
+  display: flex;
+  margin: 2rem 0;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.main__box-right {
+  width: 30%;
+}
+.main__box-img {
+  height: 100%;
+}
+.main__box-left {
+  padding-right: 2rem;
+}
+.main__box-title {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.main__box-bottom {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.main__box-all {
+  margin-left: 3rem;
+}
+.main__box-all-text {
+  font-weight: bold;
+  color: var(--grey-color) !important;
+  margin-left: 5px;
+}
+.colmainBoxProduct{
+  display: flex;
+  justify-content: center;
+}
+.main__box-completed {
+  margin-left: 3rem;
+}
+.main__box-completed-text {
+  font-weight: bold;
+  color: var(--grey-color) !important;
+  margin-left: 5px;
+}
+
+
+
+
+/* ============================== Content Header Style ============================== */
+.content-header {
+  border-top: 2px solid #2bce56;
+  border-bottom: 2px solid #2bce56;
+  padding: 1.7rem 0;
+}
+.content-header__title {
+  display: block;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+.content-header__subtitle {
+  font-size: 1.3rem;
+}
+/* ============================== Content Header Style ============================== */
+
+/* ============================== Content Sidebar Style ============================== */
+.content-main {
+  margin: 3rem 0;
+}
+.sidebar__name {
+  color: var(--dark-color);
+  font-size: 1.7rem;
+}
+.sidebar__list {
+  margin-top: 0.7rem;
+}
+.sidebar__link {
+  display: block;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+/* ============================== Content Sidebar Style ============================== */
+
+/* ============================== Content Main Style ============================== */
+.courses1 {
+  border-right: 2px solid var(--primary-color) !important;
+  padding-right: 3rem;
+}
+.courses-header__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.courses-header__list {
+  display: flex;
+  border-bottom: 2px solid #2bce56;
+}
+.courses-header__item {
+  margin: 1rem 0 1rem 3.5rem;
+}
+.courses-header__link__panel {
+  font-size: 1.5rem;
+}
+
+
+.main__box {
+  display: flex;
+  margin: 2rem 0;
+  border: 2px solid #2bce56;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.main__box-right {
+  width: 30%;
+}
+.main__box-img {
+  height: 100%;
+}
+.main__box-left {
+  padding-right: 2rem;
+}
+.main__box-title {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.main__box-bottom {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.main__box-all {
+  margin-left: 3rem;
+}
+.main__box-all-text {
+  font-weight: bold;
+  color: #2bce56;
+}
+
+.main__box-completed {
+  margin-left: 3rem;
+}
+.main__box-completed-text {
+  font-weight: bold;
+  color: #2bce56;
+}
+
+/* ============================== Content Main Style ============================== */
+
+
+/* ============================== Slider Style ============================== */
+.swiper-slide{
+  margin-left: 0 !important;
+}
+/* ============================== Slider Style ============================== */
